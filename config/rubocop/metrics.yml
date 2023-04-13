@@ -1,0 +1,28 @@
+Metrics/AbcSize:
+  Max: 100
+
+Metrics/BlockLength:
+  Max: 40
+  Exclude:
+    - 'config/routes.rb'
+    - 'spec/factories.rb'
+    - 'spec/**/*_spec.rb'
+    - 'app/workers/net_suite_export_job.rb'
+
+Metrics/ClassLength:
+  Max: 300
+
+Metrics/CyclomaticComplexity:
+  Max: 15
+
+Metrics/MethodLength:
+  Max: 60
+
+Metrics/ModuleLength:
+  Max: 300
+
+Metrics/PerceivedComplexity:
+  Max: 15
+
+Metrics/ParameterLists:
+  Max: 8

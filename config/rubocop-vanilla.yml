@@ -1,0 +1,24 @@
+require:
+  - rubocop-rspec
+  - rubocop-performance
+
+inherit_from:
+  - rubocop/layout.yml
+  - rubocop/lint.yml
+  - rubocop/metrics.yml
+  - rubocop/rspec.yml
+  - rubocop/style.yml
+
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'gen/**/*'
+    - 'protorepo/**/*'
+  # rubocop checks .ruby-version for version
+  # TargetRubyVersion: 2.6
+
+Naming/MethodParameterName:
+  AllowedNames: ['id', 'ms', 'to']
+
+Performance/OpenStruct:
+  Enabled: true

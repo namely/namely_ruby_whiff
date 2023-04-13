@@ -1,0 +1,17 @@
+Lint:
+  Severity: refactor
+
+Lint/NumberConversion:
+  Enabled: true
+
+Lint/ShadowedException:
+  Enabled: false
+
+Lint/RescueException:
+  Exclude:
+    - 'app/lib/koala/evaluator.rb'
+    - 'app/services/net_suite/gl_org_units_service.rb'
+
+Lint/UnifiedInteger:
+  Exclude:
+    - 'app/models/type_for_field.rb'

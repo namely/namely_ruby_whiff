@@ -1,0 +1,11 @@
+Layout/FirstHashElementLineBreak:
+  Enabled: true
+
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: true
+
+Layout/MultilineAssignmentLayout:
+  Enabled: true
+
+Layout/LineLength:
+  Max: 120

@@ -1,0 +1,24 @@
+RSpec/AnyInstance:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Max: 45
+
+RSpec/MessageChain:
+  Enabled: false
+
+RSpec/MessageSpies:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Max: 13
+
+RSpec/NestedGroups:
+  Max: 5
+
+RSpec/LetSetup:
+  Exclude:
+    - 'spec/mailers/gl_sync_mailer_spec.rb'
+
+RSpec/NamedSubject:
+  Enabled: false
