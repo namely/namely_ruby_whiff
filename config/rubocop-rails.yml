@@ -8,4 +8,5 @@ inherit_from:
 AllCops:
   Exclude:
     - 'db/**/*'
-  TargetRubyVersion: 2.6
+  # rubocop checks .ruby-version for version
+  # TargetRubyVersion: 2.6

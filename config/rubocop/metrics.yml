@@ -7,7 +7,6 @@ Metrics/BlockLength:
     - 'config/routes.rb'
     - 'spec/factories.rb'
     - 'spec/**/*_spec.rb'
-    - 'app/workers/net_suite_export_job.rb'
 
 Metrics/ClassLength:
   Max: 300

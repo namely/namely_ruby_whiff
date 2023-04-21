@@ -7,7 +7,7 @@ Namely Ruby Whiff is a Ruby gem that contains common Rubocop configurations to u
 To install Namely Ruby Whiff, simply add it to your Gemfile:
 
 ```ruby
-gem 'namely-ruby-whiff'
+  gem 'namely_ruby_whiff', git: 'https://github.com/namely/namely-ruby-whiff.git', branch: 'master', require: false
 ```
 
 And then run `bundle install`.
