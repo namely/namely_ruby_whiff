@@ -5,7 +5,6 @@ Metrics/BlockLength:
   Max: 40
   Exclude:
     - 'config/routes.rb'
-    - 'spec/factories.rb'
     - 'spec/**/*_spec.rb'
 
 Metrics/ClassLength:
