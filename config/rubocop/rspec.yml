@@ -16,9 +16,18 @@ RSpec/MultipleExpectations:
 RSpec/NestedGroups:
   Max: 5
 
-RSpec/LetSetup:
-  Exclude:
-    - 'spec/mailers/gl_sync_mailer_spec.rb'
-
 RSpec/NamedSubject:
   Enabled: false
+
+## New cops
+RSpec/RepeatedExampleGroupDescription:
+  Enabled: false
+
+RSpec/RepeatedExampleGroupBody:
+  Enabled: false
+
+RSpec/EmptyLineAfterExample:
+  Enabled: true
+
+RSpec/LeakyConstantDeclaration:
+  Enabled: true

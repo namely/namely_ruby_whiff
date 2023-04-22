@@ -9,3 +9,11 @@ Layout/MultilineAssignmentLayout:
 
 Layout/LineLength:
   Max: 120
+
+Layout/SpaceInsideStringInterpolation:
+  Enabled: true
+  EnforcedStyle: no_space
+
+Layout/MultilineAssignmentLayout:
+  Enabled: true
+  EnforcedStyle: new_line

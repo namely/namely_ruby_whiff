@@ -10,3 +10,7 @@ Lint/ShadowedException:
 Lint/RescueException:
   Exclude:
     - 'app/lib/koala/evaluator.rb'
+
+## New Cops
+Lint/NonDeterministicRequireOrder:
+  Enabled: true

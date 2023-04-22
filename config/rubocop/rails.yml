@@ -18,3 +18,12 @@ Rails/SaveBang:
 
 Rails/SkipsModelValidations:
   Enabled: false
+
+## New Cops
+Rails/FilePath:
+  Enabled: true
+  EnforcedStyle: arguments
+
+RSpec/EmptyLineAfterExample:
+  Enabled: true
+  AllowConsecutiveOneLiners: true
