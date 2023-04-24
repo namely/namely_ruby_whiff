@@ -7,20 +7,13 @@ Style/ClassVars:
 
 Style/DateTime:
   Enabled: true
-  Exclude:
-    - 'app/workers/sync_job.rb'
 
 Style/Documentation:
   Enabled: false
 
-Style/EachWithObject:
-  Exclude:
-    - 'app/models/namely_importer.rb'
-
 Style/FrozenStringLiteralComment:
   Exclude:
     - 'app/lib/koala/evaluator.rb'
-    - 'spec/features/**/*_spec.rb'
 
 Style/GuardClause:
   MinBodyLength: 4
@@ -36,10 +29,6 @@ Style/MissingRespondToMissing:
 
 Style/MultilineMethodSignature:
   Enabled: true
-
-Style/MutableConstant:
-  Exclude:
-    - 'app/models/net_suite/constants.rb'
 
 Style/Send:
   Enabled: true

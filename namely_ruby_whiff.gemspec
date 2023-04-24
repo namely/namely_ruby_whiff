@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = 'namely_ruby_whiff'
-  spec.version = '0.0.2'
+  spec.version = '0.0.3.1'
   spec.summary = 'A set of configurations to support high quality Ruby code.'
   spec.authors = ['jim.herring@namely.com']
   spec.files = []

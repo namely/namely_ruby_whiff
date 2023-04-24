@@ -6,6 +6,11 @@ Layout/FirstMethodArgumentLineBreak:
 
 Layout/MultilineAssignmentLayout:
   Enabled: true
+  EnforcedStyle: new_line
 
 Layout/LineLength:
   Max: 120
+
+Layout/SpaceInsideStringInterpolation:
+  Enabled: true
+  EnforcedStyle: no_space
