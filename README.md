@@ -7,7 +7,7 @@ Namely Ruby Whiff is a Ruby gem that contains common Rubocop configurations to u
 To install Namely Ruby Whiff, simply add it to your Gemfile:
 
 ```ruby
-  gem 'namely_ruby_whiff', git: 'https://github.com/namely/namely_ruby_whiff.git', branch: 'master', require: false
+gem 'namely_ruby_whiff', git: 'https://github.com/namely/namely_ruby_whiff.git', branch: 'master', require: false
 ```
 
 And then run `bundle install`.
@@ -37,7 +37,7 @@ bundle exec rubocop-changes
 
 ## Caveats
 
-When adding an additional file to a rule for exclusion, the excluded files from the base config have to be added locally. For example:
+When adding an additional file to a rule for exclusion, the excluded files from the base config also have to be added to the local config. For example:
 
 ```
 # in the base config from this gem
@@ -48,7 +48,7 @@ Lint/RescueException:
 
 # in your local project's config
 
-## this will no longer exclude the koala evaluator
+## this will no longer exclude the koala file from base
 Lint/RescueException:
   Exclude:
     - 'app/my_weird_file.rb'
