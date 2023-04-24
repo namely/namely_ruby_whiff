@@ -1,4 +1,4 @@
-# Namely Ruby Whiff
+# :ruby: :nose: Namely Ruby Whiff
 
 Namely Ruby Whiff is a Ruby gem that contains common Rubocop configurations to use in your Ruby projects. New tools will be added over time, the next being ruby critic.
 
