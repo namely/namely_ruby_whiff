@@ -21,7 +21,7 @@ Style/GuardClause:
 Style/MethodCalledOnDoEndBlock:
   Enabled: false
 
-Lint/MissingSuper:
+Style/MethodMissingSuper:
   Enabled: false
 
 Style/MissingRespondToMissing:
